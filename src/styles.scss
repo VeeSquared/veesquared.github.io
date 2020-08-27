@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/****************************************************************************** 
+* GLOBAL STYLES                                                               *
+******************************************************************************/
+
+/*vvv Fonts vvv*/
+@import 'assets/scss/fonts/mulish-font.scss';
+$mulish-font: 'Mulish', sans-serif;
+/*^^^ Fonts ^^^*/
+
+/*vvv Global Settings vvv*/
+* {
+  font-family: $mulish-font;
+ }
+/*^^^ Global Settings ^^^*/
