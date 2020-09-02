@@ -8,23 +8,45 @@ $mulish-font: 'Mulish', sans-serif;
 /*^^^ Fonts ^^^*/
 
 /*vvv Global Settings vvv*/
+$dark-text:#333333;
+$light-text:#fafafa;
+
 * {
   font-family: $mulish-font;
  }
 
  .light-bg{
-  color:#333333;
+  color:$dark-text;
   background-color:#ffffff;
  }
 
  .gray-bg{
-  color:#333333;
+  color:$dark-text;
   background-color:#F8F8F8;
  }
+
+ .dark-gray-bg{
+  color:$light-text;
+  background-color:#262626;
+ }
  
- .dark-bg {
-  color:#fafafa;
+ .black-bg {
+  color:$light-text;
   background-color:#141515;
+ }
+
+ .section-title {
+  font-size:5em;
+  font-weight: 800;
+  margin-bottom: 3vh;
+
+  &:after{
+    border-bottom: .5vh solid #262626;
+    content: "";
+    display: block;
+    margin: 10px auto;
+    width: 15%;
+  }
  }
 /*^^^ Global Settings ^^^*/
 
