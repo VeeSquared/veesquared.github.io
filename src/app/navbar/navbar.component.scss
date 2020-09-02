@@ -1,0 +1,103 @@
+#nav_name {
+	position: absolute;
+	left: 1em;
+	top: 0;
+	margin: 0;
+	z-index: 1000
+}
+
+#nav_name,
+.header nav ul li a {
+	border: 0;
+	outline: 0;
+	line-height: 3em;
+    text-decoration: none;
+}
+
+.drop,
+.header {
+	height: 50px;
+	font-size: 16px;
+	position: fixed;
+    left: 0;
+    color:#ffffff;
+
+}
+
+.drop {
+	width: 150px;
+	z-index: 200;
+	background-color: transparent;
+	opacity: 0;
+	transition: opacity .15s ease-in
+}
+
+.header {
+	cursor: default;
+	width: 100%;
+	top: 0;
+	z-index: 150;
+	transition: background-color .15s ease-in;
+	background: 0 0
+}
+
+.header nav {
+	float: right;
+	margin-right: 1em
+}
+
+.header nav ul {
+	margin: 0;
+	padding-left: 1em
+}
+
+.header nav ul li {
+	display: inline-block;
+	margin-left: 1em
+}
+
+.header nav ul li a {
+	color: inherit;
+	display: inline-block;
+	width: 100%;
+	height: 100%
+}
+
+.header nav ul li p {
+	margin: 0 auto
+}
+
+body.landing .header {
+	background: 0 0;
+	box-shadow: none;
+	position: absolute
+}
+
+.header .menu {
+	clear: none;
+	float: right;
+	max-height: none
+}
+
+.header .menu-icon,
+.menu-btn {
+	display: none
+}
+
+a:hover {
+	-moz-transition: border-color .15s ease-in-out, color .15s ease-in-out;
+	-webkit-transition: border-color .15s ease-in-out, color .15s ease-in-out;
+	-ms-transition: border-color .15s ease-in-out, color .15s ease-in-out;
+	transition: border-color .15s ease-in-out, color .15s ease-in-out;
+	color: #3BB9FF!important;
+	border-bottom-color: transparent
+}
+
+.active p {
+	color: #3BB9FF;
+	margin-top: 0
+}
+
+.js-global-header-scrolling {
+	top: 0
+}
