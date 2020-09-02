@@ -18,35 +18,77 @@ $light-text:#fafafa;
  .light-bg{
   color:$dark-text;
   background-color:#ffffff;
+
+  .section-title {
+    font-size:5em;
+    font-weight: 800;
+    margin-bottom: 3vh;
+  
+    &:after{
+      border-bottom: .5vh solid $dark-text;
+      content: "";
+      display: block;
+      margin: 10px auto;
+      width: 15%;
+    }
+   }
  }
 
  .gray-bg{
   color:$dark-text;
   background-color:#F8F8F8;
+
+  .section-title {
+    font-size:5em;
+    font-weight: 800;
+    margin-bottom: 3vh;
+  
+    &:after{
+      border-bottom: .5vh solid $dark-text;
+      content: "";
+      display: block;
+      margin: 10px auto;
+      width: 15%;
+    }
+   }
  }
 
  .dark-gray-bg{
   color:$light-text;
   background-color:#262626;
+
+  .section-title {
+    font-size:5em;
+    font-weight: 800;
+    margin-bottom: 3vh;
+  
+    &:after{
+      border-bottom: .5vh solid $light-text;
+      content: "";
+      display: block;
+      margin: 10px auto;
+      width: 15%;
+    }
+   }
  }
  
  .black-bg {
   color:$light-text;
   background-color:#141515;
- }
 
- .section-title {
-  font-size:5em;
-  font-weight: 800;
-  margin-bottom: 3vh;
-
-  &:after{
-    border-bottom: .5vh solid #262626;
-    content: "";
-    display: block;
-    margin: 10px auto;
-    width: 15%;
-  }
+  .section-title {
+    font-size:5em;
+    font-weight: 800;
+    margin-bottom: 3vh;
+  
+    &:after{
+      border-bottom: .5vh solid $light-text;
+      content: "";
+      display: block;
+      margin: 10px auto;
+      width: 15%;
+    }
+   }
  }
 /*^^^ Global Settings ^^^*/
 
