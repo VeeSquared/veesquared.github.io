@@ -1,13 +1,420 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>VeesquaredGithubIo</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.09e2c710755c8867a460.css"></head>
+    <meta charset="utf-8" />
+    <title>Vee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+
 <body>
-  <app-root></app-root>
-<script src="runtime.e227d1a0e31cbccbf8ec.js" defer></script><script src="polyfills.a4021de53358bb0fec14.js" defer></script><script src="main.643a3a9e73b6df168945.js" defer></script></body>
+    <!-- Header -->
+    <div class="drop">
+        <p id="nav_name">Vee</p>
+    </div>
+    <header class="header">
+        <nav id="nav">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span>
+            </label>
+            <ul class="menu">
+                <li>
+                    <a href="#zero" class="active">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#one">
+                        <p>About Me</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#two">
+                        <p>Projects</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#three">
+                        <p>Skills</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#four">
+                        <p>Education</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div id="zero">
+        <div id="banner">
+            <div class="content">
+                <section>
+                    <h2>Hello World! I'm Vee.</h2>
+                    <p>Engineer | Programmer | Tinkerer</p>
+                </section>
+            </div>
+        </div>
+
+        <div id="home-social">
+            <a class="social-btn" href="https://github.com/veesquared/">
+                <svg aria-hidden="true" class="social-svg" height="32" version="1.1" viewBox="0 0 800 800" width="32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M400 177c-127 0-223 103-223 223 0 104 72 188 160 214v-41c0-33 17-46 17-46-73-8-116-43-116-126 0-45 27-69 27-69s-14-26 2-67c25-6 71 26 71 26s24-9 63-9 63 9 63 9 46-32 71-26c16 41 2 67 2 67s27 24 27 69c0 83-43 118-116 126 0 0 17 13 17 46v41c87-27 158-109 158-214 0-120-96-223-223-223zm0-42c146 0 265 119 265 265S546 665 400 665 135 546 135 400s119-265 265-265z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+    <!-- One -->
+    <div id="one" class="invert_text">
+        <section class="content_txt">
+            <span><img class="img_avatar" src="assets/img/about/avtr.png"/></span>
+            <h2 class="about_title">About Me</h2>
+            <p id="about_txt">
+                I analyze. I code. I tinker. <br> Technology is growing at a boundless rate. As a Software
+                Engineer, it is necessary to be on pace with technology because you may never know when you may find it
+                useful in your project. I am passionate for Automation, Artificial Intelligence, and Full Stack
+                Development. I enjoy learning new languages, frameworks, and tools because it expands my toolset to aid
+                in analyzing and finding a valid solution to a problem. I also enjoy developing applications which
+                simplifies and makes people’s lives much more efficient. Seeing my own work being used as intended is
+                the best satisfaction I can ever receive. Knowing I made a difference in someone’s life with the code I
+                wrote is priceless to me.
+            </p>
+        </section>
+    </div>
+
+    <!-- Two -->
+    <div id="two" class="invert_back">
+        <section class="content_txt">
+            <h2 class="title">Projects</h2>
+            <span><img class="img_category" src="assets/img/projects/proj.png" alt="" /></span>
+            <div id="sec_proj">
+                <div class="list_proj">
+
+                    <p class="proj_title">RegistrarNOW!</p>
+                    <p class="proj_date">Aug. 2015</p>
+                    <p class="proj_info">
+                        RegistrarNOW! is a web application which performs as a basic university registration system for
+                        Administrators, Professors, and Students. The application allows students to send and receive
+                        messages from Academic Advising. Users can login, enroll in classes, view course listings,
+                        update personal info, view grades with their class rank, class grade distribution and final
+                        schedule.
+                    </p>
+                    <ul class="proj_tech">
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>KnockoutJS</li>
+                        <li>MS SQL Server</li>
+                        <li>ASP.NET</li>
+                        <li>Git</li>
+                        <li>Visual Studio</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">SHA-1 Hash Algorithm</p>
+                    <p class="proj_date">Feb. 2015 - Mar. 2015</p>
+                    <p class="proj_info">
+                        A simulated design of the SHA-1 Hash Algorithm developed in Verilog. 
+                        The simulated design takes input of a message and computes it into a 
+                        160-bit SHA1 hash. The simulated design utilizes multiple pipelines 
+                        to increase performance of the algorithm and reduce area delay between 
+                        the execution of each instruction.
+                    </p>
+                    <ul class="proj_tech">
+                        <li>Verilog</li>
+                        <li>Quartus II</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">BeanMe!</p>
+                    <p class="proj_date">Jan. 2015 - Mar. 2015</p>
+                    <p class="proj_info">
+                        BeanMe! is an Android app that simplifies group ordering for coffee runners. BeanMe! allows
+                        users to host coffee runs, invite friends to the runs, and get invited to the coffee run. It
+                        works by a having a host create a run which notifies the users in the run to send their order to
+                        the friend that is taking their orders. So, throw away the pen and paper and just BeanMe!
+                    </p>
+                    <ul class="proj_tech">
+                        <li>Java</li>
+                        <li>Android SDK</li>
+                        <li>Parse Platform</li>
+                        <li>Git</li>
+                        <li>Android Studio</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">AdminALL</p>
+                    <p class="proj_date">Aug. 2014</p>
+                    <p class="proj_info">
+                        AdminALL is a web app created for Administrators to be able to manage users. There are three
+                        user groups which include Administrators, Group Level Users, and General Users. The Admins are
+                        allowed to create, edit, and delete user profiles. If a user forgets their password, they can
+                        send a request have their password reset.
+                    </p>
+                    <ul class="proj_tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>Apache (Ubuntu Server)</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">Dopamemes</p>
+                    <p class="proj_date">Jul. 2014</p>
+                    <p class="proj_info">
+                        Dopamemes is a web app which allows users to create, upload, and organize memes. There is also a
+                        chrome extension that complements this web application. This web app features saving memes in
+                        albums, sorting memes, and rating memes. Users can also drag and drop and upload memes from
+                        their desktop and save it to their only library.
+                    </p>
+                    <ul class="proj_tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>AngularJS</li>
+                        <li>Firebase</li>
+                        <li>Git</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">Boggle</p>
+                    <p class="proj_date">Nov. 2013 - Dec. 2013</p>
+                    <p class="proj_info">
+                        Implemented the backend logic to find all possible words for a game of Boggle. 
+                        The logic utilizes a Multi-way trie to maintain a lexicon and a Depth First Search 
+                        to find all valid words on a randomly generated 4x4 boggle board. 
+                    </p>
+                    <ul class="proj_tech">
+                        <li>C++</li>
+                        <li>QT Framework</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">MessageIt</p>
+                    <p class="proj_date">Oct. 2013 - Dec. 2013</p>
+                    <p class="proj_info">
+                        MessageIt is a Java based chat application that looks and feels like the initial version of
+                        AOL Instant Messenger. The application allows the end user to register, login, and chat with
+                        other registered users which are their friends. Because it is a Java application, the user can
+                        run this application on any platform, whether it is Windows, OS X, or even Linux.
+                    </p>
+                    <ul class="proj_tech">
+                        <li>Java</li>
+                        <li>Spring Framework</li>
+                        <li>ActiveMQ</li>
+                        <li>Maven</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>Eclipse</li>
+                    </ul>
+                </div>
+
+                <div class="list_proj">
+
+                    <p class="proj_title">Mathletica</p>
+                    <p class="proj_date">Aug. 2012</p>
+                    <p class="proj_info">
+                        Mathletica is an e-learning Android application that exercises student’s mind and endurance.
+                        There are four difficulty levels that can be selected, where each level becoming exponentially
+                        harder. Each question will tell you whether or not the student submitted the correct or wrong
+                        solution. See how high you score!!!
+                    </p>
+                    <ul class="proj_tech">
+                        <li>Java</li>
+                        <li>Eclipse (ADT Plugin)</li>
+                        <li>Android SDK</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Three -->
+    <div id="three" class="invert_text">
+        <section class="content_txt">
+            <h2 class="title">Skills</h2>
+            <span><img class="img_category" src="assets/img/skills/skills.png" alt="" /></span>
+            <div id="skills_list">
+                <div class="left_skills_div">
+                    <p class="skills_title">Programming Languages</p>
+                    <ul class="gen_list">
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Golang</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>T-SQL</li>
+                        <li>PL/SQL</li>
+                    </ul>
+
+                    <p class="skills_title">Frameworks</p>
+                    <ul class="gen_list">
+                        <li>ASP.NET</li>
+                        <li>ASP.NET Core</li>
+                        <li>Entity Framework</li>
+                        <li>Bootstrap</li>
+                        <li>Angular 8</li>
+                        <li>Spring</li>
+                    </ul>
+
+                    <p class="skills_title">Databases</p>
+                    <ul class="gen_list">
+                        <li>Microsoft SQL Server</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>Oracle 12c</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div class="right_skills_div">
+
+
+                    <p class="skills_title">IDE / Tools</p>
+                    <ul class="gen_list">
+                        <li>Eclipse</li>
+                        <li>Android Studio</li>
+                        <li>Visual Studio</li>
+                        <li>Visual Studio Code</li>
+                        <li>SourceTree</li>
+                        <li>Postman</li>
+                        <li>Filezilla</li>
+                        <li>Hyper-V</li>
+                    </ul>
+
+                    <p class="skills_title">OS Environments</p>
+                    <ul class="gen_list">
+                        <li>Linux</li>
+                        <li>macOS</li>
+                        <li>Windows</li>
+                        </li>
+                    </ul>
+
+                    <p class="skills_title">Additional Skills</p>
+                    <ul class="gen_list">
+                        <li>Git</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Four -->
+    <div id="four" class="invert_back container">
+        <section class="content_txt">
+
+            <h2 class="title">Education</h2>
+            <span><img class="img_category" src="assets/img/edu/edu.png" alt="" /></span>
+
+            <div id="list_edu">
+                <p id="unv_lbl">
+                    University of California, San Diego
+                    <br> B.S. Computer Engineering
+                </p>
+                <div class="left_class_list">
+
+                    <p id="edu_ttl">UCSD Coursework</p>
+                    <p class="edu_grp_ttl">Computer Science And Engineering Courses</p>
+                    <ul class="gen_list">
+                        <li>Fluency in Information Technology</li>
+                        <li>Basic Data Structures and Object-Oriented Design</li>
+                        <li>Software Tools and Techniques Laboratory</li>
+                        <li>Discrete Mathematics</li>
+                        <li>Mathematics for Algorithms and Systems</li>
+                        <li>Computer Organization and Systems Programming</li>
+                        <li>Advanced Data Structures</li>
+                        <li>Design and Analysis of Algorithms</li>
+                        <li>Software Engineering</li>
+                        <li>Principles of Computer Operating Systems</li>
+                        <li>Web Client Languages</li>
+                        <li>Server-side Web Applications</li>
+                        <li>Components and Design Techniques for Digital Systems</li>
+                        <li>Digital Systems Laboratory</li>
+                        <li>Intro to Computer Architecture</li>
+                        <li>Project in Computer Architecture</li>
+                        <li>Intro to Artificial Intelligence: Statistical Approaches</li>
+                        <li>Mobile Development</li>
+                        <li>Enterprise Web Applications</li>
+                    </ul>
+
+                    <p class="edu_grp_ttl">Electrical Engineering Courses</p>
+                    <ul class="gen_list">
+                        <li>Intro to Analog Design</li>
+                        <li>Circuits and Systems</li>
+                        <li>Components and Circuits Laboratory</li>
+                        <li>Linear Systems Fundamentals</li>
+                        <li>Advanced Digital Design Project</li>
+                    </ul>
+                </div>
+
+                <div class="right_class_list">
+                    <p class="edu_grp_ttl">Economic Courses</p>
+                    <ul class="gen_list">
+                        <li>Principles of Microeconomics</li>
+                        <li>Econometrics A</li>
+                    </ul>
+
+                    <p class="edu_grp_ttl">Management Courses</p>
+                    <ul class="gen_list">
+                        <li>Business Project Management</li>
+                    </ul>
+
+                    <p class="edu_grp_ttl">Mathematics Courses</p>
+                    <ul class="gen_list">
+                        <li>Calculus A</li>
+                        <li>Calculus B</li>
+                        <li>Calculus and Analytic Geometry</li>
+                        <li>Intro to Differential Equations</li>
+                        <li>Linear Algebra</li>
+                    </ul>
+
+                    <p class="edu_grp_ttl">Physics Courses</p>
+                    <ul class="gen_list">
+                        <li>Mechanics</li>
+                        <li>Electricity and Magnetism</li>
+                        <li>Fluids, Waves, Thermodynamics, and Optics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Five -->
+    <footer id="copyrightsec">
+        <p id="copyright">&copy; Copyright 2018 Vee.</p>
+    </footer>
+
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/js_main.js"></script>
+</body>
+
 </html>
