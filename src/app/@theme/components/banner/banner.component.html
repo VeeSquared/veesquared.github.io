@@ -1,0 +1,6 @@
+<div class="banner" [ngStyle]="{'background-image': 'url('+img+')'}">
+    <div class="overlay" [ngStyle]="{'background': 'rgba('+colorOverlay+')'}">
+        <ng-content select="[banner-content]">
+        </ng-content>
+    </div>
+</div>

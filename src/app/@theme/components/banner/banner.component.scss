@@ -1,0 +1,19 @@
+.banner {
+	background-attachment: fixed;
+	background-color: #272833;
+	background-position: center center;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+	z-index: 21
+}
+
+.overlay{
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%
+}
